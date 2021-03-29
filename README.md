@@ -11,10 +11,8 @@ _Estas instrucciones te permitirán obtener una copia del proyecto en funcionami
 ### Pre-requisitos 📋
 
 * [Nodejs v10.* o superiores](https://nodejs.org/es/)
-* [MariaDB 10.*](https://mariadb.org/)
 * [Git](https://git-scm.com/)
 * [Github](https://github.com/)
-* [Postman](https://www.postman.com/)
 
 
 
@@ -66,7 +64,7 @@ En el timer solo deben aparecer Horas:Minutos:segundos.
 *  2.Multi select Storage: Debes crear 3 ``<select>`` con valores por defecto diferentes, cada select debe tener los mismo 5 options que están en estados global. Cada vez que se seleccione una opción del select se deben guardar en localstorage y si se refresca la página y existen valores guardados en storage se deben tomar por defecto, de lo contrario debe tomar los valores antes establecidos. También se debe tener un botón para borrar el storage de todos los selects.
 
 *  3.Load CSV table: En el directorio ``csv/`` encontrarás un archivo ``testCSVTable`.csv`` el cual debes cargar en el sistema y crear una ``<tabla>`` con los datos contenidos. 
-La fila 1 son los títulos de las columnas. En cada titulo de columna ``<th>`` debes agregar un checkboxs para seleccionar las columnas. 
+La fila 1 son los títulos de las columnas. En cada titulo de columna ``<th>`` debes agregar un checkboxs para seleccionar la columna. 
 En la fila número 2 debes agregar un select para seleccionar el tipo de dato que contiene la columna, los tipos de opciones que se pueden seleccionar son (Name, Email, Phone, Address). 
 También debes crear un botón  debajo de la tabla donde se debe hacer un console log con las columnas seleccionadas con check. Por defecto el botón debe estar oculto hasta que en algunas columnas se seleccionen los tipos Name  y phone.
 
