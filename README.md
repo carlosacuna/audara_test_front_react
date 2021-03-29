@@ -57,9 +57,9 @@ _En el archivo ``src/App.js`` encontraras las rutas de los componentes que debes
 
 _En el directorio ``src/components`` encontraras las carpetas de los componentes que debes realizar._
 
-*  1.Count Down timer: Es necesario crear un componente que realice el llamado a una API para obtener el current timestamp unix, a esa fecha se le deben agregar 20 segundos y después se debe comenzar un conteo regresivo hasta llegar a 00:00:00. Cuando la cantidad de segundos agregados den 00:00:00 debes marcar el timer down en rojo y se comenzará a incrementar el tiempo. 
-Te recomendamos utilizar ``http://worldtimeapi.org/`` con el timezone de Bogotá Colombia. 
-En el timer solo deben aparecer Horas:Minutos:segundos.
+*  1.Count Down timer: Es necesario crear un componente que realice el llamado a una API para obtener el current timestamp unix, a esa fecha se le deben agregar 20 segundos y después se debe comenzar un conteo regresivo hasta llegar a 00:00. Cuando la cantidad de segundos agregados den 00:00 debes marcar el timer down en rojo y se comenzará a incrementar el tiempo. 
+Te recomendamos utilizar el API ``http://worldtimeapi.org/`` con el timezone de Bogotá Colombia. 
+En el timer solo deben aparecer Minutos:segundos.
 
 ![CountDownTimer](https://i.imgur.com/zuVdhwT.gif)
 
